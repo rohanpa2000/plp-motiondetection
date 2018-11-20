@@ -1,4 +1,4 @@
-package com.plp.iotplatform.motiondetections;
+package com.plp.motiondetection;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -32,8 +32,8 @@ public class App
         Date endDate = df.parse("25/10/2018 00:00");
         
         List<CostedIncidentSeries> costedIncidentSerieses = motionBusiness.getCalculatedIncidents(
-        																	startDate, 
-        																	endDate, 
+        	 																startDate, 
+         																	endDate, 
         																	30,
         																	2,
         																	8,
