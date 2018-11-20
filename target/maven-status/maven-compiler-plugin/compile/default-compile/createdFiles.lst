@@ -1,0 +1,10 @@
+com/plp/motiondetection/model/TimeSpacedIncident.class
+com/plp/motiondetection/data/mysql/MotionMySql.class
+com/plp/motiondetection/model/IncidentSeries.class
+com/plp/motiondetection/model/CostedIncidentSeries.class
+com/plp/motiondetection/util/EpochTimeConverter.class
+com/plp/motiondetection/business/MotionBusiness.class
+com/plp/motiondetection/data/MotionData.class
+com/plp/motiondetection/model/Incident.class
+com/plp/motiondetection/config/Configuration.class
+com/plp/iotplatform/motiondetections/App.class
