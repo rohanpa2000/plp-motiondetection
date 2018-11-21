@@ -1,11 +1,11 @@
 
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# ignore directories
+# build directory
 /target
-/bin
 
 # misc
+dependency-reduced-pom.xml
 .DS_Store
 .env.local
 .env.development.local
