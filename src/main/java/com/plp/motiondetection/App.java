@@ -26,6 +26,8 @@ public class App
     
 	private static void Test2() throws java.text.ParseException {
 		
+	System.out.println("Test message");
+		
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm"); 
         
         Date startDate = df.parse("24/10/2018 00:00");
