@@ -21,14 +21,14 @@ public class MotionBusiness {
 	
 	public void save (Incident motion){
 
-		motionData.save(motion);
+		motionData.save(motion); 
 	}
 	
 	public List<Incident> getLastIncidents(){
 		
 		return motionData.getLastIncidents();
 	}
-	
+	 
 	public List<CostedIncidentSeries> getCalculatedIncidents(	
 										Date startDateTime, 
 										Date endDateTime, 
